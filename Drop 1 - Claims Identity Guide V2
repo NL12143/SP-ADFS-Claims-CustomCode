@@ -1,0 +1,14 @@
+##Drop 1 - Claims Identity Guide V2
+Feb 25, 2011, Alpha
+http://claimsid.codeplex.com/releases/view/61646
+
+#Highlights of drop #1
+
+This is the first drop of the new "Claims Identity Guide" edition. In this release you will find:
+All previous samples updated and enhanced.
+All code upgraded to .NET 4 and Visual Studio 2010.
+Refactored Simulated Issuers: each solution now gets its own issuers. This results in much cleaner and simpler to understand code.
+Added Single Sign Out support.
+Added first sample using ACS ("ACS as a Federation Provider"). This sample extends the original "Federation sample".
+First ACS chapter.
+Enhanced Dependency Checker! (doesn't require PowerShell, better UI).
