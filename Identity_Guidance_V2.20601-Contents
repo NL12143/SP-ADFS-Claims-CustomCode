@@ -1,0 +1,24 @@
+# Contents 
+
+## Identity_Guidance_V2.20601-Docs.zip 
+
+01 An Introduction to Claims.docx
+..
+11 SharePoint SSO.docx
+12 Federated Identity for SharePoint Applications.docx
+
+21 Appendix A Using FedUtil.docx
+..
+26 Appendix F Sharepoint Authentication.docx
+
+
+
+## Identity_Guidance_V2.20601-Code
+
+1-SingleSignOn 
+2-Federation
+..
+10-SharePoint
+  DisplayClaimsWebPart
+  SingleSignOutModule
+  SlidingSessionModule 
