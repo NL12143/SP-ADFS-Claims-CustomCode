@@ -1,0 +1,17 @@
+##Drop 2 - Claims Identity Guide V2
+Mar 21, 2011, Alpha
+http://claimsid.codeplex.com/releases/view/62929
+
+#Highlights of drop #2
+
+This is the second drop of the new "Claims Identity Guide" edition. In this release you will find:
+All 3 samples for ACS v2: ("ACS as a Federation Provider", "ACS as a FP with Multiple Business Partners" and "ACS and REST endpoints"). 
+This sample extend all the original "Federation samples" in the guide with new capabilities (e.g. protocol transition, REST services, etc).
+Two ACS specific chapters.
+
+In addition to these, you will also find:
+All previous samples updated and enhanced (all first 5 scenarios).
+All code upgraded to .NET 4 and Visual Studio 2010.
+Refactored Simulated Issuers: each solution now gets its own issuers. This results in much cleaner and simpler to understand code.
+Added Single Sign Out support.
+Enhanced Dependency Checker! (doesn't require PowerShell, better UI).
