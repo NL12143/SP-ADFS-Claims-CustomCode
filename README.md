@@ -18,10 +18,10 @@ Set-ADFSRelyingPartyTrust –TargetName "SharePoint Adatum Portal" –TokenLifeT
 By setting the LogonTokenCacheExpirationWindow value to 470 minutes in SharePoint, <BR> 
 Adatum can effectively set the session duration to 10 minutes.
 
-$ap = Get-SPSecurityTokenServiceConfig <BR>
-$ap.LogonTokenCacheExpirationWindow = (New-TimeSpan -minutes 470) <BR>
-$ap.Update(); <BR>
-IIsreset <BR> 
+$STSconfig = Get-SPSecurityTokenServiceConfig <BR>
+$STSconfig.LogonTokenCacheExpirationWindow = (New-TimeSpan -minutes 470) <BR>
+$STSconfig.Update(); <BR>
+IISreset <BR> 
 
 https://blogs.msdn.microsoft.com/jesusfer/2015/08/27/sharepoint-2013-authentication-lifetime-settings/ 
 https://msdn.microsoft.com/en-us/library/office/hh147183(v=office.14).aspx 
